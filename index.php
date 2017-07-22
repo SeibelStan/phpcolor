@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 require('lib.php');
 
-$dir = 'test/';
+$dir = 'img/';
 $files = scandir($dir);
 $result = [];
 foreach($files as $file) {
